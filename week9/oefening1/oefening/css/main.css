@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+Molebackground{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    margin: 4px 2px;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+button{
+    margin: 4px 2px;
+    padding: 10px 10px;
+    font-size: 20px;
+}

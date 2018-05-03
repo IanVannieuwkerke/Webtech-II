@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <h1>wat weet jij over de mol</h1>
+    <form>
+        <div class="t-shirt">
+            <label for="t-shirt"></label>Welke kleur T-shirt had de mol vandaag aan?"</label><br>
+            <input id="t-shirt" required minlength="4" maxlength="10" size="45" requid>
+        </div>
+        
+        <div class="auto">
+            <legend>Sliep de mol vannacht in de auto?<abbr title="This field is mandatory"></abbr></legend><br>
+            <input type="radio" name="carsleeper"  value="yes" requird>Yes
+            <input type="radio" name="carsleeper"  value="No" requird>No
+        </div>
+        
+        <div class="age">
+            <label for="age">Hoe oud schat je de mol?"</label><br>
+            <input type="number" name="age" min="12" max="120" requird>
+        </div>
+        
+        <div class="mail">
+            <label for="email">What's your e-mail?</label><br>
+            <input type="email" id="t2" name="email" requird>
+        </div>
+        
+        <div class="argument">
+            <label for="argument">Argumenteer je antwoord</label><br>
+            <input type="text" min="100" requird>
+        </div>
+    </form>
+    <button id="storeMyMole">verder </button>
+</body>
+</html>
